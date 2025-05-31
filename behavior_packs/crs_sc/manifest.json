@@ -1,0 +1,40 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "pack.name",
+    "description": "pack.description",
+    "uuid": "4b0bfd72-ff95-422b-a3b4-821b6a0c0f7f",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 21, 82]
+  },
+  "modules": [
+    {
+      "description": "Script resources",
+      "language": "javascript",
+      "type": "script",
+      "uuid": "74f13a23-dc52-47f9-9d75-611c3d9e47c6",
+      "version": [1, 0, 0],
+      "entry": "scripts/main.js"
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "2.0.0-beta"
+    },
+    {
+      "module_name": "@minecraft/server-ui",
+      "version": "2.0.0-beta"
+    },
+    {
+      "uuid": "a8e87283-3158-496c-ad25-82df28220d9d",
+      "version": [1, 0, 0]
+    }
+  ],
+  "metadata": {
+    "product_type": "addon",
+    "authors": ["CodeRandom Studios"],
+    "license": "Copyright (c) 2023 CodeRandom Studios",
+    "url": "https://minecraft.com"
+  }
+}
